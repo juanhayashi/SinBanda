@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_buscar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="caro.sinbanda.Buscar">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Ingrese sus etiquetas:"
+            />
+
+        <EditText
+            android:id="@+id/text1"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:hint="Ejemplo: Punk; Rock"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Ingrese sus etiquetas para habilidades musicales:"
+            />
+
+        <EditText
+            android:id="@+id/text2"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:hint="Ejemplo: Guitarra; Bajo"
+            />
+
+        <Button
+            android:id="@+id/botonbuscarpersona"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp"
+            android:layout_margin="100dp"
+            android:text="BUSCAR"/>
+
+    </LinearLayout>
+
+</LinearLayout>
