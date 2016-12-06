@@ -14,9 +14,7 @@ public class MensajesUsuario extends AppCompatActivity implements View.OnClickLi
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mensajes_usuario);
-
-        btnMensaje1=(Button)findViewById(R.id.buttonMensajes1);
-        btnMensaje1.setOnClickListener(this);
+        
 
     }
 

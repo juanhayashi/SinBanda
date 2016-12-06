@@ -30,10 +30,12 @@ public class PerfilUsuario extends AppCompatActivity implements View.OnClickList
         explicit_intent=new Intent(this,caro.sinbanda.InicioSinBanda.class);
         startActivity(explicit_intent);
 
-        switch (v.getId()) {
-            case R.id.botonmensaje:
-                explicit_intent = new Intent(this, caro.sinbanda.MensajesUsuario.class);
+        switch (v.getId()){
+
+            case R.id.botonmensaje://Lo mismo para botón Perfil
+                explicit_intent=new Intent(this, caro.sinbanda.MensajesUsuario.class);
                 startActivity(explicit_intent);
+                break;
         }
     }
 
