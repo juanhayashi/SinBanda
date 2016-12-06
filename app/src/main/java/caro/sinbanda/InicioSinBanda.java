@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class InicioSinBanda extends AppCompatActivity implements View.OnClickListener{
 
-    private Button btnBuscar,btnPerfil,btnMensaje;
+    private Button btnBuscar,btnPerfil;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,15 +18,11 @@ public class InicioSinBanda extends AppCompatActivity implements View.OnClickLis
 
         btnBuscar=(Button)findViewById(R.id.botonbuscar);
         btnPerfil=(Button)findViewById(R.id.botonperfil);
-        btnMensaje=(Button)findViewById(R.id.botonmensaje);
+
 
         btnBuscar.setOnClickListener(this);
         btnPerfil.setOnClickListener(this);
-        btnMensaje.setOnClickListener(this);
 
-        //Intent intent = new Intent(this, SinBanda.class);
-        //intent.putExtra();
-        //startActivity(intent);
     }
 
     @Override
@@ -45,9 +41,7 @@ public class InicioSinBanda extends AppCompatActivity implements View.OnClickLis
                 explicit_intent=new Intent(this, caro.sinbanda.PerfilUsuario.class);
                 startActivity(explicit_intent);
                 break;
-            case R.id.botonmensaje:
-                explicit_intent = new Intent(this,caro.sinbanda.MensajesUsuario.class);
-                startActivity(explicit_intent);
+
         }
 
     }
