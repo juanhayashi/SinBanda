@@ -38,7 +38,7 @@
         android:orientation="horizontal"
         >
 
-        <Button
+        <ImageButton
             android:id="@+id/botonlike"
             android:layout_width="wrap_content"
             android:layout_height="70dp"
@@ -46,8 +46,8 @@
             android:layout_marginLeft="20dp"
             android:layout_marginRight="10dp"
             android:backgroundTint="@color/BotonLike"
-            android:text="LAIK"/>
-        <Button
+            android:src="@drawable/like"/>
+        <ImageButton
             android:id="@+id/botondislike"
             android:layout_width="wrap_content"
             android:layout_height="70dp"
@@ -55,7 +55,7 @@
             android:layout_marginLeft="10dp"
             android:layout_marginRight="20dp"
             android:backgroundTint="@color/BotonDislike"
-            android:text="DISLAIK"/>
+            android:src="@drawable/disdis"/>
 
 
     </LinearLayout>
