@@ -3,6 +3,7 @@
     <color name="colorPrimary">#424242</color>
     <color name="colorPrimaryDark">#212121</color>
     <color name="colorAccent">#FFF9C4</color>
+    <color name="colorLetra">#FFFFFF</color>
     <color name="BotonLike">#A5D6A7</color>
     <color name="BotonDislike">#EF5350</color>
 </resources>
